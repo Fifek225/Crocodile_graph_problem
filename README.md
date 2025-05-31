@@ -14,6 +14,7 @@ graph.txt - text file containing node and edge info. It has to be filled by the 
 
 # How to fill the graph.txt file?
 The file structure is as follows:
+
 \# NODE
 
 start 0 0
@@ -22,9 +23,7 @@ A 1 3
 
 B 2 5
 .
-
 .
-
 .
 end 9 9
 
@@ -35,9 +34,7 @@ start A 2
 A B 4
 
 .
-
 .
-
 .
 
 D end 5
