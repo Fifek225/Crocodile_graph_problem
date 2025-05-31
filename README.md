@@ -1,18 +1,18 @@
-## Crocodile_graph_problem
+# Crocodile_graph_problem
 This repo is for a short university project. The task is to find the shortest weighted path for a woman jumpin on Nile crocodiles (don't ask...).
 
 
-# The task
+### The task
 A theif (you) have been caught stealing from an Egyptian temple. As a punishment you've been put on an island on a Nile river until your exectuion. You see that a lot of crocodiles are sleeping with their heads above the water. You determine that you are able to jump at most 5 meters throught the crocodiles to shore. Now you have to FIND THE SHORTEST PATH TO SHORE, before the priests come back.
 
-# The solution
+### The solution
 Dijkstra algorithm has been used as an easy way to solve weighted graph problems with with or without extra conditions. File structure is as follows:
 graph.py - contains functions for reading and drawing the graph based on the .txt file with node and edge info. 
 dijkstra.py - constains code to find the shortest weighted path with a condition that no weight can be > 5
 main.py - main file for running the program
 graph.txt - text file containing node and edge info. It has to be filled by the user.
 
-# How to fill the graph.txt file?
+### How to fill the graph.txt file?
 The file structure is as follows:
 
 \# NODE
