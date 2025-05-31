@@ -15,21 +15,33 @@ graph.txt - text file containing node and edge info. It has to be filled by the 
 # How to fill the graph.txt file?
 The file structure is as follows:
 \# NODE
+
 start 0 0
+
 A 1 3
+
 B 2 5
 .
+
 .
+
 .
 end 9 9
 
 \# EDGE
+
 start A 2
+
 A B 4
+
 .
+
 .
+
 .
+
 D end 5
+
 B H 4
 
 1. \# NODE and \# EDGE keywords are crucial.
@@ -41,6 +53,7 @@ B H 4
 - The board (river) size is set as a constant 10 by 10 matrix.
 
 An example of a generated graph is presented below.
-![Example of a generated graph](ex_graph.png)
+![ex_graph](https://github.com/user-attachments/assets/e8f1d5c0-923e-4c06-91f1-48e2b4383cca)
+
 
 Grey areas are spots in the matrix without any crocodiles. Weights and edges that are not part of the shortest path are transparent to imporve visibility.
