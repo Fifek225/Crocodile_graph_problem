@@ -41,6 +41,6 @@ B H 4
 - The board (river) size is set as a constant 10 by 10 matrix.
 
 An example of a generated graph is presented below.
-![](\code\ex_graph.png)
+![Example of a generated graph](ex_graph.png)
 
 Grey areas are spots in the matrix without any crocodiles. Weights and edges that are not part of the shortest path are transparent to imporve visibility.
